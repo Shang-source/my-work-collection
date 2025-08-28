@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="307px" height="264px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip225">
+      <path d="M 5.05357142857144 0  L 277.946428571428 0  C 280.776428571429 0  283 1.75999999999999  283 4  L 283 236  C 283 238.24  280.776428571429 240  277.946428571428 240  L 5.05357142857144 240  C 2.2235714285714 240  0 238.24  0 236  L 0 4  C 0 1.75999999999999  2.2235714285714 0  5.05357142857144 0  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="1835px" y="5440px" width="307px" height="264px" filterUnits="userSpaceOnUse" id="filter226">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="6" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.0588235294117647 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget227">
+      <path d="M 5.05357142857144 0  L 277.946428571428 0  C 280.776428571429 0  283 1.75999999999999  283 4  L 283 236  C 283 238.24  280.776428571429 240  277.946428571428 240  L 5.05357142857144 240  C 2.2235714285714 240  0 238.24  0 236  L 0 4  C 0 1.75999999999999  2.2235714285714 0  5.05357142857144 0  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 1847 5450 )" />
+      <path d="M 5.05357142857144 0  L 277.946428571428 0  C 280.776428571429 0  283 1.75999999999999  283 4  L 283 236  C 283 238.24  280.776428571429 240  277.946428571428 240  L 5.05357142857144 240  C 2.2235714285714 240  0 238.24  0 236  L 0 4  C 0 1.75999999999999  2.2235714285714 0  5.05357142857144 0  Z " stroke-width="2" stroke="#e4e7ed" fill="none" transform="matrix(1 0 0 1 1847 5450 )" mask="url(#clip225)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1835 -5440 )">
+    <use xlink:href="#widget227" filter="url(#filter226)" />
+    <use xlink:href="#widget227" />
+  </g>
+</svg>
